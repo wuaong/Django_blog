@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+{% for article in article_list %}
+    <h2>
+        <a href="{% url 'article_detail' article.id %}">
+            {{ article.title }}
+        </a>
+    </h2>
+
+{% endfor %}
+
+</body>
+</html>
