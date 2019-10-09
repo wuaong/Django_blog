@@ -1,9 +1,7 @@
-from django.contrib.contenttypes.models import ContentType
 from django.shortcuts import render, get_object_or_404
-
+from user.forms import LoginForm
 from blog.models import Blog, BlogType
 from blog.utils import get_blog_list_common_data, read_statistics_once_read
-from read_statistics.models import ReadNum
 
 
 def blog_list(request):
@@ -37,15 +35,25 @@ def blogs_with_date(request,year,month):
 def blog_detail(request,blog_id):
 
     blog = get_object_or_404(Blog,pk=blog_id)
-
     key = read_statistics_once_read(request, blog)
+
+    #获取评论
+    # blog_content_type = ContentType.objects.get_for_model(blog)
+    # comments =Comment.objects.filter(content_type=blog_content_type,object_id=blog.id,root=None)
+    #写评论
+    # comment_form = CommentForm(initial={'content_type':blog_content_type,'object_id':blog_id,'reply_comment_id':0})
+
 
     previous_blog = Blog.objects.filter(created_time__gt=blog.created_time).last()
     next_blog = Blog.objects.filter(created_time__lt=blog.created_time).first()
+    login_form=LoginForm()
     context = {
         'blog':blog,
         'previous_blog':previous_blog,
-        'next_blog':next_blog
+        'next_blog':next_blog,
+        # 'comments':comments.order_by('-comment_time'),
+        # 'comment_form':comment_form,
+        'login_form':login_form
     }
 
     response=render(request, 'blog/blog_detail.html', context=context)

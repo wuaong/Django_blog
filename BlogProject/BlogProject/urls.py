@@ -22,8 +22,12 @@ from BlogProject import views, settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name='home'),
-    path('blogs/',include('blog.urls'),),
-    path('ckeditor',include('ckeditor_uploader.urls')),
+
+    path('blogs/',include('blog.urls')),
+    path('user/',include('user.urls')),
+    path('comment/',include('comment.urls')),
+    path('likes/',include('likes.urls')),
+    path('ckeditor/',include('ckeditor_uploader.urls')),
 ]
 
 urlpatterns += static('/media/',document_root=settings.MEDIA_ROOT)
