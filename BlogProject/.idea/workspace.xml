@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="212df80a-765b-4463-98d7-63469238d52d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/templates/comment/send_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/templatetags/comment_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comment/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likes/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likes/templatetags/like_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/likes/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user/bind_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user/forgot_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user/user_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BlogProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BlogProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogProject/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogProject/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogProject/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/blog_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/blog_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/blog_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/blog_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read_statistics/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_statistics/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +134,9 @@
       <workItem from="1570445931225" duration="3898000" />
       <workItem from="1570500564045" duration="6769000" />
       <workItem from="1570512960813" duration="17449000" />
-      <workItem from="1570587988647" duration="7023000" />
+      <workItem from="1570587988647" duration="10541000" />
+      <workItem from="1570688780939" duration="1165000" />
+      <workItem from="1570844083988" duration="7808000" />
     </task>
     <servers />
   </component>
